@@ -1,4 +1,4 @@
 # About the note taking system
-This note taking system uses the PARA method created by Tiago Forte. See more about the method clicking on [this link](https://fortelabs.com/blog/para/)
+This note-taking system follows the **PARA method** created by Tiago Forte. You can [learn more about the method here](https://fortelabs.com/blog/para/)
 
-I've been trying Obsidian as note taker - and I strongly recommend it - but you can use any tool you want
+I personally use Obsidian for my notes - and I highly recommend it - but this system is flexible enough to work with any tool you prefer
