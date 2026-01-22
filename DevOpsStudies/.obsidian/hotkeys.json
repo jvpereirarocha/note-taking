@@ -1,0 +1,19 @@
+{
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:add-cursor-below": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "Enter"
+    }
+  ]
+}
