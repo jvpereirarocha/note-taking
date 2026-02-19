@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d1611d77beb9a4f6",
+        "id": "20f183a36392cc2e",
         "type": "tabs",
         "children": [
           {
-            "id": "0ccdd1e5010025cf",
+            "id": "47ed11506d6a28dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-areas/Concepts/Linux/Tools/VIM Concepts.md",
+                "file": "1-projects/Linux/LinuxMastery/how-linux-works-chapter-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VIM Concepts"
-            }
-          },
-          {
-            "id": "0e493547ac8ff971",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "attachments/linux_redirect_from_input_to_a_file_then_output_to_other_file.png"
-              },
-              "icon": "lucide-image",
-              "title": "linux_redirect_from_input_to_a_file_then_output_to_other_file"
+              "title": "how-linux-works-chapter-1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "CUSTOM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,53 +183,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "f26cfa9ecef281a8",
+  "active": "47ed11506d6a28dd",
   "lastOpenFiles": [
-    "attachments/linux_separating_stdout_stderr.png",
-    "attachments/linux_ls_not_found_files.png",
-    "attachments/linux_append_content_to_existing_file.png",
-    "attachments/linux_redirect_from_input_to_a_file.png",
-    "2-areas/Tutorials/Linux/Commands/Input, Output and Redirection.md",
-    "attachments/linux_redirect_from_input_to_a_file_then_output_to_other_file.png",
-    "2-areas/Tutorials/Linux/Commands/Permissions on Linux.md",
-    "attachments/linux_umask_s_creating_new_dir.png",
-    "attachments/linux_umask_0007.png",
-    "attachments/linux_umask.png",
-    "2-areas/Tutorials/Linux/Commands/Permissions Example.md",
-    "2-areas/Tutorials/Linux/Commands/Groups permission examples.md",
-    "2-areas/Tutorials/Linux/Commands/Find Files and Directories.md",
-    "Find Files and Directories/Locate command 8a3a5de734674b99b4e5dc6b6024cb9d.md",
-    "Find Files and Directories",
-    "2-areas/Tutorials/Linux/Commands/Find command.md",
-    "2-areas/Tutorials/Linux/Commands/Extract and compressing files.md",
-    "2-areas/Tutorials/Linux/Commands/Display content of a file.md",
-    "2-areas/Tutorials/Linux/Commands/Customizing the Shell prompt.md",
-    "attachments/linux_chmod_all_perms_to_user.png",
-    "attachments/linux_chmod_perm_to_group.png",
-    "attachments/linux_chmod_perms_to_user_group_and_others.png",
-    "0-inbox/Deploying FastAPI application to Kubernetes.md",
-    "Permissions on Linux/Permissions Example cd88be2159204e63be473f2ef61c499e.md",
-    "Permissions on Linux",
-    "2-areas/Tutorials/Linux/Commands/Basic Commands.md",
-    "2-areas/Tutorials/Linux/Commands/Transfering and Copying Files over the Network.md",
-    "2-areas/Tutorials/Linux/Commands/Wildcards.md",
-    "2-areas/Tutorials/Linux/Commands/Manipulating files.md",
-    "2-areas/Tutorials/Linux/Commands/Sorting Files.md",
-    "2-areas/Tutorials/Linux/Commands/Moving and Renaming Files.md",
-    "2-areas/Tutorials/Linux/Commands/Copying Files.md",
-    "2-areas/Tutorials/Linux/Commands/Removing files.md",
-    "2-areas/Tutorials/Linux/Commands/Locate command.md",
-    "2-areas/Tutorials/Linux/Commands/Linux Directory Structure.md",
-    "2-areas/Tutorials/Linux/How to configure Grub2.md",
-    "0-inbox/Linux Levels and Layers.md",
     "2-areas/Concepts/Linux/Tools/VIM Concepts.md",
-    "1-projects/ArtificialIntelligence/custom_agent_example.py",
-    "Manipulating files",
-    "attachments/Unconfirmed 964783.crdownload",
-    "2-areas/Concepts/Linux/Tools",
-    "2-areas/Concepts/Linux",
-    "2-areas/Tutorials/Linux/Tools/Vim",
-    "2-areas/Tutorials/Linux/Tools",
-    "2-areas/Tutorials/Linux/Commands"
+    "2-areas/Concepts/Network/dns-concepts.md",
+    "2-areas/Concepts/Linux/linux-file-hierarchy-system.md",
+    "2-areas/Concepts/Linux/Tools/vim-concepts.md",
+    "2-areas/Tutorials/Linux/how-to-configure-grub2.md",
+    "2-areas/Tutorials/Linux/Tools/vim-keybindings.md",
+    "2-areas/Tutorials/Linux/Commands/linux-directory-structure.md",
+    "2-areas/Tutorials/Linux/Commands/network-commands-on-linux.md",
+    "2-areas/Tutorials/Linux/Commands/moving-and-renaming-files.md",
+    "2-areas/Tutorials/Linux/Commands/permissions-example.md",
+    "2-areas/Tutorials/Linux/Commands/input-output-and-redirection.md",
+    "2-areas/Tutorials/Linux/Commands/extract-and-compressing-files.md",
+    "2-areas/Tutorials/Linux/Commands/removing-files.md",
+    "2-areas/Tutorials/Linux/Commands/networking-in-linux.md",
+    "2-areas/Tutorials/Linux/Commands/manipulating-files.md",
+    "2-areas/Tutorials/Linux/Commands/find-files-and-directories.md",
+    "2-areas/Tutorials/Linux/Commands/customizing-the-shell-prompt.md",
+    "2-areas/Tutorials/Linux/Commands/sorting-files.md",
+    "2-areas/Tutorials/Linux/Commands/searching-files-and-pipe-operator.md",
+    "2-areas/Tutorials/Linux/Commands/locate-command.md",
+    "2-areas/Tutorials/Linux/Commands/copying-files.md",
+    "2-areas/Tutorials/Linux/Commands/transfering-and-copying-files-over-the-network.md",
+    "2-areas/Tutorials/Linux/Commands/linux-check-pc-hardware-and-peripherals.md",
+    "2-areas/Tutorials/Linux/Commands/groups-permission-examples.md",
+    "2-areas/Tutorials/Linux/Commands/find-command.md",
+    "2-areas/Tutorials/Linux/Commands/permissions-on-linux.md",
+    "3-resources/Practices/Scripts",
+    "3-resources/Untitled",
+    "0-inbox/Homelab Setup Guide - Debian 13.md.tmp.105314.1771356373943",
+    "0-inbox/Homelab Setup Guide - Debian 13.md.tmp.105314.1771356186685",
+    "0-inbox/linux-tips.md~",
+    "0-inbox/Linux Practice 12-02-2026.md~",
+    "3-resources/Practices/Linux",
+    "3-resources/Practices",
+    "3-resources/Templates/Example - Tool Reference - systemctl and journalctl.md.tmp.56298.1770388476517",
+    "3-resources/Templates/Example - Debugging Log - Docker Container Exiting Immediately.md.tmp.56298.1770388448633",
+    "5-attachments/linux_virtual_memory_management.png",
+    "0-inbox/linux_virtual_memory_management.png",
+    "5-attachments/linux_network_dig.png",
+    "5-attachments/linux_network_nslookup.png",
+    "5-attachments/linux_network_nmap.png",
+    "5-attachments/linux_network_hostname.png",
+    "5-attachments/linux_network_ip_route.png",
+    "5-attachments/linux_network_traceroute.png",
+    "5-attachments/linux_network_ping.png",
+    "5-attachments/linux_network_curl_gettin_header.png"
   ]
 }

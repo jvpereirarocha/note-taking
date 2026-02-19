@@ -16,23 +16,21 @@ Options:
 
 - Searching the keyword root into the `users-passwd.txt` file
 
-![Untitled](Searching%20files%20and%20Pipe%20operator/Untitled.png)
+![[linux_grep_keyword_root.png]]
 
 Under the hood, when we use the grep command we are using something with the pipe operator and the command cat
 
-![This command has the same effect of the previous command, as you can see](Searching%20files%20and%20Pipe%20operator/Untitled%201.png)
-
+![[linux_grep_keyword_root_under_the_hood.png]]
 This command has the same effect of the previous command, as you can see
 
 - Ignoring and not ignoring case sensitive + using the invert match pattern (searching non-matching words)
 
-![Untitled](Searching%20files%20and%20Pipe%20operator/Untitled%202.png)
+![[linux_grep_ignoring_and_not_ignoring_case_sensitive.png]]
 
 - Counting the number of occurrences of the root keyword in the `users-passwd.txt` file
 
-![Only 1 line was found with the “root” word. Then, the -ci option returned the number 1; Otherwise, using the non-matching pattern, with the -cv option, we found 14 lines](Searching%20files%20and%20Pipe%20operator/Untitled%203.png)
-
-Only 1 line was found with the “root” word. Then, the -ci option returned the number 1; Otherwise, using the non-matching pattern, with the -cv option, we found 14 lines
+![[linux_grep_counting_occurs.png]]
+Only 1 line was found with the “root” word. Then, the `-ci` option returned the number 1; Otherwise, using the non-matching pattern, with the `-cv` option, we found 14 lines
 
 ## The file command
 
@@ -44,13 +42,12 @@ file [filename]
 
 - Viewing the file description
 
-![Untitled](Searching%20files%20and%20Pipe%20operator/Untitled%204.png)
+![[linux_file_command_description.png]]
 
 Viewing the file description with the -i option
 
-![This option -i show us the mime type of the file. In this case, text/plain](Searching%20files%20and%20Pipe%20operator/Untitled%205.png)
-
-This option -i show us the mime type of the file. In this case, text/plain
+![[linux_file_command_description_and_mime_type.png]]
+This option `-i` show us the mime type of the file. In this case, `text/plain`
 
 ## The cut command
 
@@ -67,21 +64,19 @@ cut [options] [file]
 
 - Find the two first words in the `configs.txt` file using space as delimiter
 
-![-d delimiter used here is ‘ ‘ to tell to the system that we want space as delimiter](Searching%20files%20and%20Pipe%20operator/Untitled%206.png)
-
--d delimiter used here is ‘ ‘ to tell to the system that we want space as delimiter
+![[linux_cut_command_two_first_words_space_delimiter.png]]
+`-d` delimiter used here is ‘ ‘ to tell to the system that we want space as delimiter
 
 Let’s change the `configs.txt` file
 
-![we have now a / character](Searching%20files%20and%20Pipe%20operator/Untitled%207.png)
+![[linux_cut_command_change_file.png]]
 
-we have now a / character
+we have now a `/` character
 
-- Getting the last two found sentences using / as delimiter
+- Getting the last two found sentences using `/` as delimiter
 
-![the line with the content author: jvictor hasn’t the delimiter / then this returns all the content of the line](Searching%20files%20and%20Pipe%20operator/Untitled%208.png)
-
-the line with the content author: jvictor hasn’t the delimiter / then this returns all the content of the line
+![[linux_cut_command_last_two_sentences_slash_delimiter.png]]
+the line with the content `author: jvictor` hasn’t the delimiter `/` then this returns all the content of the line
 
 ## The pipe operator
 
@@ -101,16 +96,16 @@ output command | output command | output command | input command
 
 - Finding the 10 first users of the /`etc/passwd` that contains the keyword **bin**
 
-![As we can see, there’s a lot of users with this keyword](Searching%20files%20and%20Pipe%20operator/Untitled%209.png)
+![[linux_pipe_first_10_users_using_bin_keyword.png]]
 
 As we can see, there’s a lot of users with this keyword
 
 - Finding the 3 last users of the `/etc/passwd` that contains the keyword **bin**, getting only the first word
 
-![Untitled](Searching%20files%20and%20Pipe%20operator/Untitled%2010.png)
+![[linux_pipe_last_3_users_using_bin_keyword_only_first_word.png]]
 
 - Now finding the 5 last users of the /etc/passwd file and using head as command input to get only the three first results
 
-![We can combine as many pipes as possible](Searching%20files%20and%20Pipe%20operator/Untitled%2011.png)
+![[linux_pipe_last_5_users_using_bin_keyword_only_three_results.png]]
 
 We can combine as many pipes as possible

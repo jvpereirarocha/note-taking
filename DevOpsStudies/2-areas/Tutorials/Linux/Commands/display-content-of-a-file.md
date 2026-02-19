@@ -1,4 +1,3 @@
-# Display content of a file
 
 ```
 cat file -> Display the contents of file

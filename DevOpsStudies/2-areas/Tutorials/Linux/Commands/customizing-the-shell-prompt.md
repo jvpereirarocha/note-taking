@@ -1,7 +1,6 @@
-
 - Use an environment variable to customize
-- Bash. ksh and sh use $PS1
-- Csh, tcsh, and zsh use $prompt
+- Bash. ksh and sh use `$PS1`
+- Csh, tcsh, and zsh use `$prompt`
 
 ## Customizing The prompt with PS1
 
